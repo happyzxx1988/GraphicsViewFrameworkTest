@@ -18,12 +18,16 @@ public:
 private slots:
     void adjustViewSize();
 
+    void on_action_triggered();
+
 private:
     Ui::MainWindow *ui;
 
     QGraphicsView * view;
 
     QGraphicsScene *scene;
+
+    QImage *image;
     void initScene();
     void initSceneBackground();
 

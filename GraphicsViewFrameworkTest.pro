@@ -27,13 +27,15 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     food.cpp \
-    gamecontroller.cpp
+    gamecontroller.cpp \
+    graphwidget.cpp
 
 HEADERS += \
         mainwindow.h \
     food.h \
     constants.h \
-    gamecontroller.h
+    gamecontroller.h \
+    graphwidget.h
 
 FORMS += \
         mainwindow.ui
